@@ -1,0 +1,99 @@
+[
+  {
+    "name": "username",
+    "type": "text",
+    "label": "Username",
+    "required": true,
+    "minLength": 3
+  },
+  {
+    "name": "email",
+    "type": "email",
+    "label": "Email",
+    "required": true,
+    "validate": "email"
+  },
+  {
+    "name": "password",
+    "type": "password",
+    "label": "Password",
+    "required": true,
+    "minLength": 6
+  },
+  {
+    "name": "confirmPassword",
+    "type": "password",
+    "label": "Confirm Password",
+    "required": true,
+    "dependsOn": "password"
+  },
+  {
+    "name": "dob",
+    "type": "date",
+    "label": "Date of Birth",
+    "required": true
+  },
+  {
+    "name": "age",
+    "type": "number",
+    "label": "Age",
+    "required": true,
+    "min": 18,
+    "max": 100
+  },
+  {
+    "name": "gender",
+    "type": "radio",
+    "label": "Gender",
+    "options": ["Male", "Female", "Other"],
+    "required": true
+  },
+  {
+    "name": "subscribe",
+    "type": "checkbox",
+    "label": "Subscribe to Newsletter"
+  },
+  {
+    "name": "newsletterType",
+    "type": "select",
+    "label": "Newsletter Type",
+    "options": ["Daily", "Weekly", "Monthly"],
+    "dependsOn": "subscribe",
+    "required": true
+  },
+  {
+    "name": "phone",
+    "type": "tel",
+    "label": "Phone Number",
+    "required": true,
+    "pattern": "^\\+?[0-9]{10,15}$"
+  },
+  {
+    "name": "address",
+    "type": "textarea",
+    "label": "Address",
+    "required": true
+  },
+  {
+    "name": "website",
+    "type": "url",
+    "label": "Website",
+    "validate": "url"
+  },
+  {
+    "name": "profilePicture",
+    "type": "file",
+    "label": "Upload Profile Picture"
+  },
+  {
+    "name": "color",
+    "type": "color",
+    "label": "Favorite Color"
+  },
+  {
+    "name": "agreeTerms",
+    "type": "checkbox",
+    "label": "I agree to the Terms and Conditions",
+    "required": true
+  }
+]
