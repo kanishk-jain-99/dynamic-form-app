@@ -115,7 +115,7 @@ npm test -- src/components/DynamicForm.test.jsx
 │   ├── config/
 │   │   ├── formConfig.json   # Form configuration file
 │   ├── utils/
-│   │   ├── formHelpers.jsx   # Form configuration file
+│   │   ├── formHelpers.jsx   # Form Helpers
 │   ├── index.css
 │   ├── main.jsx
 │   ├── App.jsx
