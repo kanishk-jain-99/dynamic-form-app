@@ -123,3 +123,14 @@ npm test -- src/components/DynamicForm.test.jsx
 ```
 
 ---
+
+## 🌎 Deployment
+
+This app is deployed using **Vercel**.
+
+URL: [text](https://dynamic-form-app-1kec.vercel.app/)
+
+```
+
+---
+```
